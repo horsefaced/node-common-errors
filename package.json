@@ -1,9 +1,8 @@
 {
   "name": "common-errors",
   "version": "1.0.0",
-  "description": "通用Errors定义",
+  "description": "common nodejs error definition",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
