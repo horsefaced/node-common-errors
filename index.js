@@ -7,8 +7,11 @@ class InvalidArgumentError extends Error {
 }
 
 class LoginFailError extends Error {
-    constructor(message) {
+    constructor(ip, user, password, message = 'login failed') {
         super(message);
+        this.ip = ip;
+        this.user = user;
+        this.password = password;
     }
 }
 
@@ -16,4 +19,5 @@ class LoginFailError extends Error {
 
 module.exports = {
     InvalidArgumentError: InvalidArgumentError,
+    LoginFailError: LoginFailError,
 }
