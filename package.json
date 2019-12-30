@@ -1,5 +1,5 @@
 {
-  "name": "common-errors",
+  "name": "@horsefaced/common-errors",
   "version": "1.0.0",
   "description": "common nodejs error definition",
   "main": "index.js",
