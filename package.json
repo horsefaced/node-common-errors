@@ -1,0 +1,24 @@
+{
+  "name": "common-errors",
+  "version": "1.0.0",
+  "description": "通用Errors定义",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsefaced/node-common-errors.git"
+  },
+  "keywords": [
+    "errors",
+    "invalidArgumentErrors"
+  ],
+  "author": "chenshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horsefaced/node-common-errors/issues"
+  },
+  "homepage": "https://github.com/horsefaced/node-common-errors#readme"
+}
